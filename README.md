@@ -39,7 +39,7 @@ Compile both contracts:
 
 <img src="./images/image3.png">
 
-Now instead of deploying Telephone.sol we are going to interact with the already deployed contract by using instance address showed on Developer Tools and we will be deploying ourselves the Attack.sol contract to the Rinkeby's Testnet. Also, dont forget to add your wallet on Environment by selecting "Injected Provider - Metamask".
+Now instead of deploying Telephone.sol we are going to interact with the already deployed contract by using instance address showed on Developer Tools and we will be deploying ourselves the AttackCall.sol contract to the Rinkeby's Testnet. Also, dont forget to add your wallet on Environment by selecting "Injected Provider - Metamask".
 
 <img src="./images/image4.png">
 

@@ -18,7 +18,7 @@ Go on Remix: https://remix.ethereum.org/ and make these changes in Telephone.sol
 
 Copy the Telephone.sol contract found before "submit instance" and "get new instance" buttons.
 
-At Telephone.sol i made these next changes:
+At Telephone.sol i made this next change:
 >- <value> 1. Pragma version from **0.6.0** to **0.8.0** 
 
 Just like the past level i searched about the difference between tx.origin and msg.sender, where i managed to find more information in this video : https://www.youtube.com/watch?v=mk4wDlVB4ro. This level wants from us to become the owner of the contract, only if we manage somehow to make the **tx.origin** who stands for the **sender of the transaction** different than the **msg.sender**, who's **the sender of the message**. Because we are unnable to do that in the same contract, we are going to build another contract, who's gonna attack the Telephone contract and will switch the ownership of the contract to us. The other contract that we build will be similar to the famous "Reetrancy Attack" 
